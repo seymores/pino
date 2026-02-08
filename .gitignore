@@ -5,6 +5,7 @@
 classes/
 target/
 out/
+tmp/
 
 # OS/editor files
 .DS_Store
