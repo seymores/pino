@@ -1,0 +1,8 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.4"}
+        metosin/malli {:mvn/version "0.19.1"}
+        selmer/selmer {:mvn/version "1.12.59"}
+        cheshire/cheshire {:mvn/version "5.13.0"}}
+ :aliases
+ {:test {:extra-paths ["test"]
+         :main-opts ["-m" "test-runner"]}}}

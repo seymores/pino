@@ -1,0 +1,12 @@
+# Clojure / JVM build and cache artifacts
+.cpcache/
+.clj-kondo/
+.lsp/
+classes/
+target/
+out/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
